@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DTC Bus Sewa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="nav_item_route">Search Route</string>
+    <string name="nav_item_bus">Search Bus</string>
+    <string name="nav_item_fac">Facilities</string>
+    <string name="nav_item_ab">About</string>
+    <string name="route">Route</string>
+    <string name="Fare">Fare Chart</string>
+    <string name="serve">Services</string>
+    <string name="sight">Sight Seeing</string>
+    <string name="help">Helpline</string>
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_route</item>
+        <item>@string/nav_item_bus</item>
+        <item>@string/nav_item_fac</item>
+        <item>@string/nav_item_ab</item>
+    </string-array>
+
+    <string name="title_route">Search Route</string>
+    <string name="title_bus">Search Bus</string>
+    <string name="title_fac">Facilities</string>
+    <string name="title_ab">About</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tick">tick</string>
+    <string name="title_activity_helpline">Helpline</string>
+    <string name="title_activity_services">Services</string>
+    <string name="title_activity_serve">serve</string>
+
+</resources>

@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    android:id="@+id/s">
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Ordinary Buses:"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/container_toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/table1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance Slab"
+                android:textColor="#000"
+                android:id="@+id/textView15"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Adult Fare"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView19"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Child Fare"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView23"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="0-4 Kms"
+                android:textColor="#000"
+                android:id="@+id/textView16"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView20"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView24"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4-10 Kms"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView17"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView21"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView25"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Above 10 Kms"
+                android:id="@+id/textView18"
+                android:layout_column="0"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView22"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView26"
+                android:layout_column="2" />
+        </TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:id="@+id/textView27"
+            android:text=" Fare for AC Buses:"
+            android:layout_alignParentLeft="true"
+            />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance Slab"
+                android:textColor="#000"
+                android:id="@+id/textView28"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Adult Fare"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView32"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Child Fare"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView36"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0-4 Kms"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView29"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView33"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView37"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4-8 Kms"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView30"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView34"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView38"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8-12 Kms"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView31"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView35"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView39"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Above 12 Kms"
+                android:textColor="#000"
+                android:id="@+id/textView40"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView41"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13 Rs"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView42"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:id="@+id/textView43"
+            android:textColor="#000"
+            android:text="PASSES:"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView44"
+            android:textColor="#000"
+            android:text="DTC offers a pass for different categories with different Concessions after which only passes are required while traveling. The different categories are: "
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView60"
+            android:textColorLink="#000000"
+            android:textStyle="bold"
+            android:linksClickable="true"
+            android:text="Click here to Download form"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+0
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S.No."
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView45"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Categories"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView50"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Denomination of pass"
+                android:id="@+id/textView55"
+                android:textColor="#000"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1."
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView46"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student All route"
+                android:id="@+id/textView51"
+                android:textColor="#000"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 100 Rs (Non Ac)"
+                android:id="@+id/textView56"
+                android:textColor="#000"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2."
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView47"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="General All route"
+                android:textColor="#000"
+                android:id="@+id/textView52"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text=" 800/- Non AC,1000/- AC"
+                android:id="@+id/textView57"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3."
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView48"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Press All route"
+                android:textColor="#000"
+                android:id="@+id/textView53"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 100/- Non AC,200 /- AC"
+                android:id="@+id/textView58"
+                android:textColor="#000"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4."
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView49"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senior Citizen "
+                android:id="@+id/textView54"
+                android:textColor="#000"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 250/-Non AC, 350/- AC"
+                android:id="@+id/textView59"
+                android:textColor="#000"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
+

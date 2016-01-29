@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A">
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGHT SEEING TOURS"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/textView74"
+        android:layout_below="@+id/container_toolbar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DTC daily operates Sight Seeing Tours from Scindia House.  The fare of Delhi Darshan Service AC bus is Rs.200/- for adult and Rs.100/- for the children between the age of 5 –12 years.  However the children will not be entitle for seat in the bus.The time of journey will be from 0915 to 17.45 hrs."
+        android:id="@+id/textView75"
+        android:textColor="#000"
+        android:layout_below="@+id/textView74"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Route to be followed is : Delhi Gate, Shanti Van, Tilak Mark, Akbar Road, Sansad Marg, Shanti Path, Siri Aurbindo Marg, Press Enclave Road, Out Ring Road (Nehru Place), Modi Floor Mill, Ring Road, Mathura Road, Lodhi Road, Pragati Maidan, Nizamuddin Yamuna Bridge, Laxmi Nagarl, DDU Marg and Connaught Place."
+        android:id="@+id/textView76"
+        android:textColor="#000"
+        android:layout_below="@+id/textView75"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Reservation and Enquiry please contact on phone No.23752772 Extn. 244, Delhi Darshan Counter, Scindia House, Connaught Place."
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:id="@+id/textView77"
+        android:layout_below="@+id/textView76"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView77"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S.No."
+                android:textColor="#000"
+                android:id="@+id/textView78"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visiting Place"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:id="@+id/textView86"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Halting Time"
+                android:textColor="#000"
+                android:id="@+id/textView94"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1."
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView79"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Red Fort"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView87"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45 min"
+                android:textColor="#000"
+                android:id="@+id/textView95"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2."
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView80"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raj Ghat"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView88"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 min"
+                android:textColor="#000"
+                android:id="@+id/textView96"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3."
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView81"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Birla Mandir"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView89"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30 min"
+                android:textColor="#000"
+                android:id="@+id/textView97"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4."
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView82"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qutab Minar"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView90"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45 min"
+                android:textColor="#000"
+                android:id="@+id/textView98"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5."
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView83"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lotus Temple"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView91"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45 min"
+                android:textColor="#000"
+                android:id="@+id/textView99"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6."
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView84"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Humanyun's Tomb"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView92"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45 min"
+                android:textColor="#000"
+                android:id="@+id/textView100"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7."
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView85"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Akshardham Temple  "
+                android:textColor="#000"
+                android:id="@+id/textView93"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dropping Only"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/textView101"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USER GUIDE:"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:id="@+id/textView102"
+        android:layout_below="@+id/container_toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Use the SEARCH ROUTE option to find route via bus which will direct you to the google maps to view the bus numbers available where you have to only select the bus option as given in google maps."
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:id="@+id/textView103"
+        android:layout_below="@+id/textView102"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Use the SEARCH BUS option to view the routes from which a bus passes and its source and destination."
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:id="@+id/textView104"
+        android:layout_below="@+id/textView103"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. The Facilites option gives you information abut fare charts, passes, different helpline numbers and also info about the dtc touring,airport and universities services."
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:id="@+id/textView105"
+        android:layout_below="@+id/textView104"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
